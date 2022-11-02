@@ -1,3 +1,5 @@
-export {default as PostCard} from './PostCard'
-export {default as PostWidget} from './PostWidget'
-export {default as Categories} from './Categories'
+export {default as PostCard} from './PostCard.js'
+export {default as PostWidget} from './PostWidget.js'
+export {default as Categories} from './Categories.js'
+export {default as Header } from './Header.js'
+export {default as Layout } from './Layout.js'

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { PostCard, Categories, PostWidget } from '../components'
+import MyApp from './_app'
 
 const posts = [
   {title: "React Testing", excerpt: "Learn React Testing"},

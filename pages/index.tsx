@@ -15,7 +15,7 @@ export default function Home({posts}) {
 
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
         <div className='lg:col-span-8 col-span-1'>
-          {posts.map((post) => <PostCard key={post.node.title} post={post.node}/>)}
+          {posts.map(post => <PostCard key={post.node.title} post={post.node}/>)}
         </div>
         <div className='lg:col-span-4 col-span-1'>
             <div className="lg:sticky relative top-8">
